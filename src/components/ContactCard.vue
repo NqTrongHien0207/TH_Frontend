@@ -5,6 +5,7 @@ export default {
     },
 };
 </script>
+    
 <template>
     <div>
         <div class="p-1">
@@ -12,8 +13,8 @@ export default {
             {{ contact.name }}
         </div>
         <div class="p-1">
-            <strong>E-mail:</strong>
-            {{ contact.email }}
+        <strong>E-mail:</strong>
+        {{ contact.email }}
         </div>
         <div class="p-1">
             <strong>Địa chỉ:</strong>
